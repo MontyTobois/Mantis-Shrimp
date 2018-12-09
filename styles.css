@@ -1,0 +1,58 @@
+/*Entire card*/
+#container{
+  border: 5px solid hidden;
+  border-radius; 5px;
+  height: 850px;
+  width: 400px;
+  border-radius: 7px 7px 7px 7px ;
+  background-color: cyan;
+  -webkit-box-shadow: 3px 3px 3px  4px #ccc;
+  box-shadow: 3px 3px 3px  4px #ccc;
+   padding: 1em;
+
+}
+  /*Mantis Shrimp Picture cute litte guy*/
+.Mantis{
+ width: 450px;
+ border: .1px solid white;
+  border-radius: 3px 3px 3px;
+  background-color: ;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+  padding:10px;
+}
+
+#interesting-fact{
+  font-style : italic;
+  text-align: center;
+
+
+}
+#summary{
+  font-weight: normal;
+
+}
+
+ul> li{
+  list-style-type: none;
+
+}
+li > span {
+  font-weight: bold;
+}
+.animal-info {
+border: solid 1px green;
+position: center;
+    left:8px;
+    top: 400px;
+  padding-right:1em;
+  padding-left: 1em;
+
+
+}
+h1{
+text-align: center;
+
+}
