@@ -1,58 +1,63 @@
 /*Entire card*/
-#container{
-  border: 5px solid hidden;
-  border-radius; 5px;
-  height: 850px;
-  width: 400px;
-  border-radius: 7px 7px 7px 7px ;
-  background-color: cyan;
-  -webkit-box-shadow: 3px 3px 3px  4px #ccc;
-  box-shadow: 3px 3px 3px  4px #ccc;
-   padding: 1em;
-
+#container {
+  width: 100%;
 }
-  /*Mantis Shrimp Picture cute litte guy*/
-.Mantis{
- width: 450px;
- border: .1px solid white;
+
+#card {
+  border: 5px hidden;
+  height: 130vh;
+  width: 90%;
+  border-radius: 7px 7px 7px 7px;
+  background-color: rgb(85, 217, 240);
+  -webkit-box-shadow: 3px 3px 3px 4px #ccc;
+  box-shadow: 3px 3px 3px 4px #ccc;
+  padding: 1em;
+}
+
+.Mantis {
+  width: 450px;
+  border: .1px solid white;
   border-radius: 3px 3px 3px;
   background-color: ;
- display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 330px;
-  padding:10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 330px;
+  padding: 10px;
 }
 
-#interesting-fact{
-  font-style : italic;
+#interesting-fact {
+  font-style: italic;
   text-align: center;
-
-
 }
-#summary{
+
+#fact {
+  font-style: italic;
+  position: center;
+  left: 8px;
+  top: 400px;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#summary {
   font-weight: normal;
-
+  border: solid 1px green;
+  position: center;
+  left: 8px;
+  top: 400px;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
-ul> li{
+ul>li {
   list-style-type: none;
-
 }
-li > span {
+
+li>span {
   font-weight: bold;
 }
-.animal-info {
-border: solid 1px green;
-position: center;
-    left:8px;
-    top: 400px;
-  padding-right:1em;
-  padding-left: 1em;
 
-
-}
-h1{
-text-align: center;
-
+h1 {
+  text-align: center;
 }
