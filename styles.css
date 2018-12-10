@@ -31,7 +31,7 @@
   text-align: center;
 }
 
-#fact {
+#facts {
   font-style: italic;
   position: center;
   left: 8px;
@@ -42,7 +42,6 @@
 
 #summary {
   font-weight: normal;
-  border: solid 1px green;
   position: center;
   left: 8px;
   top: 400px;
@@ -52,6 +51,7 @@
 
 ul>li {
   list-style-type: none;
+  text-align: center;
 }
 
 li>span {
@@ -60,4 +60,9 @@ li>span {
 
 h1 {
   text-align: center;
+}
+
+.animal-info {
+  border: solid 3px green;
+  padding: 2px;
 }
